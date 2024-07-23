@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'apolloprometheus2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C4BBCB08D0724C6E96948D3DAB7E4BC7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0FD693486AC14D74A58D5E2716D37D5C }}
