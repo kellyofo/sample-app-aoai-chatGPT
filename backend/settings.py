@@ -41,13 +41,13 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Apollo"
-    logo: Optional[str] = None
-    chat_logo: Optional[str] = None
+    title: str = "Apollo Prometheus"
+    logo: Optional[str] = "https://apollo.engineer/wp-content/uploads/2022/09/cropped-cat3Asset-3-192x192.png"
+    chat_logo: Optional[str] = "https://apollo.engineer/wp-content/uploads/2022/09/cropped-cat3Asset-3-32x32.png"
     chat_title: str = "Prometheus"
     chat_description: str = "Prometheus is a chatbot configured to answer your questions on Apollo procedures"
-    favicon: str = "/favicon.ico"
-    show_share_button: bool = True
+    favicon: str = "https://apollo.engineer/wp-content/uploads/2022/09/cropped-cat3Asset-3-32x32.png"
+    show_share_button: bool = False
     show_chat_history_button: bool = True
 
 
